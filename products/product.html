@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./products.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="top_leftMenu">
+        <div class="topbar_logo">
+          <img
+            src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png"
+            alt="logo"
+          />
+          <p class="brand_name">Kafene</p>
+        </div>
+        <nav>
+          <a class="nav_a" href="">Orders</a>
+          <a class="nav_a" href="">Products</a>
+          <a class="nav_a" href="">Users</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="input">
+        <input class="opt" type="checkbox" id="0" checked />
+        <label for="0">All</label>
+        <input class="opt" type="checkbox" id="1" />
+        <label for="1">Expired</label>
+        <input class="opt" type="checkbox" id="2" />
+        <label for="2">Low Stock</label>
+      </div>
+
+      <table id="table">
+        <tr>
+          <th>Id</th>
+          <th>Medicine Name</th>
+          <th>Medicine Brand</th>
+          <th>Expiry Date</th>
+          <th>Unit Price</th>
+          <th>Prescription Required</th>
+          <th>Stock</th>
+        </tr>
+      </table>
+    </main>
+
+    <footer></footer>
+    <script src="./products.js"></script>
+  </body>
+</html>
